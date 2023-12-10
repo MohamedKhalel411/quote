@@ -70,4 +70,5 @@ function display(){
     num = Math.round(Math.random()*quotes.length +1);
     document.getElementById("quote").innerHTML = "``"+quotes[num].qoute+"``";
     document.getElementById("author").innerHTML ="--" +quotes[num].author;
+    
 }
